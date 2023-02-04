@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.0em;
+    padding-bottom: 80px;
+}
+
+#conteudo-principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.botao{
+    background-color: #ffffff;;
+    padding: 10px;
+    border-radius: 5px;
+    color: black
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
